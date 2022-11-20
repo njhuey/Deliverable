@@ -6,21 +6,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@media (min-width: 500px) {
   body {
     color: white;
-    background: black;
+    background-image: linear-gradient(to right, #ff7b5c, #ff6c81);
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    color: white;
+    background-image: linear-gradient(#ff7b5c, #ff6c81);
   }
 }
