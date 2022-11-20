@@ -51,7 +51,15 @@ export default function Home() {
           </Box>
         </div>
         <div className={styles.container}>
-          <Image src={petr} alt="/petr.png" width={175} height={225} />
+          <div className={styles.wrapper}>
+            <Image
+              src={petr}
+              alt="/petr.png"
+              width={175}
+              height={225}
+              className={styles.image}
+            />
+          </div>
         </div>
       </main>
     </>
