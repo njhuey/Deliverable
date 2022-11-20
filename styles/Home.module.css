@@ -68,21 +68,21 @@
 
 @keyframes x-axis {
   0% {
-    transform: translateX(min(30vw, 30vh));
+    transform: translateX(min(30vw, 150px));
   }
   50% {
-    transform: translatex(max(-30vw, -30vh));
+    transform: translatex(max(-30vw, -150px));
   }
   100% {
-    transform: translateX(min(30vw, 30vh));
+    transform: translateX(min(30vw, 150px));
   }
 }
 
 @keyframes y-axis {
   25% {
-    transform: translateY(min(30vw, 30vh));
+    transform: translateY(min(30vw, 150px));
   }
   75% {
-    transform: translateY(max(-30vw, -30vh));
+    transform: translateY(max(-30vw, -150px));
   }
 }
