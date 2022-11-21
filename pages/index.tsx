@@ -37,7 +37,7 @@ export default function Home() {
         setEmailErr(false);
         setFunfact("");
         setFunfactErr(false);
-        toast("Success!");
+        toast.success("Success!");
       })
       .catch(function (error: any) {
         if (name == "") setNameErr(true);
